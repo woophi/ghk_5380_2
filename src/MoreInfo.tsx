@@ -251,38 +251,35 @@ export const MoreInfo = () => {
       </Typography.Text>
 
       <Typography.Text view="primary-medium">
-        <strong>
-          Дополнительное вознаграждение за исполнение расчётов по сделкам с ценными бумагами — 0,02% от объёма сделок с
-          ценными бумагами.
-        </strong>
+        Дополнительное вознаграждение за исполнение расчётов по сделкам с ценными бумагами —{' '}
+        <strong>0,02% от объёма сделок с ценными бумагами.</strong>
       </Typography.Text>
 
       <Typography.TitleResponsive tag="h3" view="small" font="system" weight="semibold">
         Сделки покупки-продажи БПИФ УК «Альфа-Капитал»
       </Typography.TitleResponsive>
       <Typography.Text view="primary-medium">
-        Сделки покупки-продажи ценных бумаг на внебиржевом рынке — бесплатно
+        Сделки покупки-продажи ценных бумаг на внебиржевом рынке — <b>бесплатно</b>
       </Typography.Text>
       <Typography.Text view="primary-medium">
-        Сделки со структурными облигациями на внебиржевом рынке — 0,3% от суммы сделки
+        Сделки со структурными облигациями на внебиржевом рынке — <b>0,3% от суммы сделки</b>
       </Typography.Text>
       <Typography.Text view="primary-medium">
-        Сделки покупки-продажи ценных бумаг на Московской бирже OTC с ЦК — 0,5% от суммы сделки
+        Сделки покупки-продажи ценных бумаг на Московской бирже OTC с ЦК — <b>0,5% от суммы сделки</b>
       </Typography.Text>
 
       <Typography.TitleResponsive tag="h3" view="small" font="system" weight="semibold">
         Операции с иностранной валютой и драгоценными металлами
       </Typography.TitleResponsive>
       <Typography.Text view="primary-medium">
-        Сделки покупки-продажи иностранной валюты — 0,049% от суммы сделки
+        Сделки покупки-продажи иностранной валюты — <b>0,049% от суммы сделки</b>
       </Typography.Text>
       <Typography.Text view="primary-medium">
-        <strong>
-          Дополнительное вознаграждение за исполнение расчётов по сделкам с иностранной валютой — 0,02% от объёма сделок
-        </strong>
+        Дополнительное вознаграждение за исполнение расчётов по сделкам с иностранной валютой —{' '}
+        <strong>0,02% от объёма сделок</strong>
       </Typography.Text>
       <Typography.Text view="primary-medium">
-        Сделки покупки-продажи драгоценных металлов — 0,1% от суммы сделки
+        Сделки покупки-продажи драгоценных металлов — <b>0,1% от суммы сделки</b>
       </Typography.Text>
 
       <Typography.TitleResponsive tag="h3" view="small" font="system" weight="semibold">
@@ -291,14 +288,18 @@ export const MoreInfo = () => {
       <List tag="ul">
         <List.Item>
           <Typography.Text view="primary-medium">
-            сделки покупки облигаций при первичном размещении на биржевых рынках - 0,1%
+            сделки покупки облигаций при первичном размещении на биржевых рынках - <b>0,1%</b> от объема сделок
           </Typography.Text>
         </List.Item>
         <List.Item>
-          <Typography.Text view="primary-medium">сделки покупки ЗПИФ при первичном размещении - 3%</Typography.Text>
+          <Typography.Text view="primary-medium">
+            сделки покупки ЗПИФ при первичном размещении - <b>3%</b> от объема сделок
+          </Typography.Text>
         </List.Item>
         <List.Item>
-          <Typography.Text view="primary-medium">сделки покупки акций при участии в pre-IPO - 5%</Typography.Text>
+          <Typography.Text view="primary-medium">
+            сделки покупки акций при участии в pre-IPO - <b>5%</b> от объема сделок
+          </Typography.Text>
         </List.Item>
       </List>
 
