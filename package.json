@@ -1,11 +1,11 @@
 {
-  "name": "ghk_3870_1",
+  "name": "ghk_5380_2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --base=/ghk_3870_1/",
+    "build": "tsc && vite build --base=/ghk_5380_2/",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
