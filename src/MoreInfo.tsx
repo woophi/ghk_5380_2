@@ -1,4 +1,3 @@
-import { Grid } from '@alfalab/core-components/grid';
 import { List } from '@alfalab/core-components/list';
 import { Table } from '@alfalab/core-components/table';
 import { Typography } from '@alfalab/core-components/typography';
@@ -14,18 +13,30 @@ export const MoreInfo = () => {
         Операции с ценными бумагами и производными финансовыми инструментами
       </Typography.Text>
 
-      <Typography.TitleResponsive tag="h3" view="small" font="system" weight="semibold">
-        Сделки покупки-продажи
-      </Typography.TitleResponsive>
-
-      <Grid.Row>
-        <Grid.Col width="6">
-          <Typography.Text view="primary-medium">ценных бумаг на биржевых рынках 0,049% от суммы сделки</Typography.Text>
-        </Grid.Col>
-        <Grid.Col width="6">
-          <Typography.Text view="primary-medium">фьючерсов на биржевом рынке ₽2 за каждый контракт</Typography.Text>
-        </Grid.Col>
-      </Grid.Row>
+      <Table>
+        <Table.THead>
+          <Table.THeadCell title=""></Table.THeadCell>
+          <Table.THeadCell title="Сделки покупки-продажи ценных бумаг на биржевых рынках">
+            Сделки покупки-продажи ценных бумаг на биржевых рынках
+          </Table.THeadCell>
+          <Table.THeadCell title="Сделки покупки-продажи фьючерсов на биржевом рынке">
+            Сделки покупки-продажи фьючерсов на биржевом рынке
+          </Table.THeadCell>
+        </Table.THead>
+        <Table.TBody>
+          <Table.TRow>
+            <Table.TCell>
+              <Typography.Text view="primary-small">Базовая ставка</Typography.Text>
+            </Table.TCell>
+            <Table.TCell>
+              <Typography.Text view="primary-small">0,049% от суммы сделки</Typography.Text>
+            </Table.TCell>
+            <Table.TCell>
+              <Typography.Text view="primary-small">2 ₽ за каждый контракт</Typography.Text>
+            </Table.TCell>
+          </Table.TRow>
+        </Table.TBody>
+      </Table>
       <Typography.Text view="primary-medium">
         Вознаграждение за сделки рассчитывается вне зависимости от типа биржи и равно разнице между Базовой ставкой и суммой
         скидок за выполнение Условий
@@ -51,7 +62,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,002%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,05</Typography.Text>
+              <Typography.Text view="primary-small">0,05 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
           <Table.TRow>
@@ -62,7 +73,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,0025%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,15</Typography.Text>
+              <Typography.Text view="primary-small">0,15 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
           <Table.TRow>
@@ -73,7 +84,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,0035%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,25</Typography.Text>
+              <Typography.Text view="primary-small">0,25 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
           <Table.TRow>
@@ -84,7 +95,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,004%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,31</Typography.Text>
+              <Typography.Text view="primary-small">0,31 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
         </Table.TBody>
@@ -110,7 +121,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,003%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,15</Typography.Text>
+              <Typography.Text view="primary-small">0,15 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
           <Table.TRow>
@@ -121,7 +132,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,009%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,30</Typography.Text>
+              <Typography.Text view="primary-small">0,30 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
           <Table.TRow>
@@ -132,7 +143,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,014%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,50</Typography.Text>
+              <Typography.Text view="primary-small">0,50 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
           <Table.TRow>
@@ -143,7 +154,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,016%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,65</Typography.Text>
+              <Typography.Text view="primary-small">0,65 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
         </Table.TBody>
@@ -172,7 +183,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,005%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,20</Typography.Text>
+              <Typography.Text view="primary-small">0,20 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
           <Table.TRow>
@@ -185,7 +196,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,014%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,50</Typography.Text>
+              <Typography.Text view="primary-small">0,50 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
           <Table.TRow>
@@ -198,7 +209,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,018%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,80</Typography.Text>
+              <Typography.Text view="primary-small">0,80 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
           <Table.TRow>
@@ -211,7 +222,7 @@ export const MoreInfo = () => {
               <Typography.Text view="primary-small">0,020%</Typography.Text>
             </Table.TCell>
             <Table.TCell>
-              <Typography.Text view="primary-small">₽0,95</Typography.Text>
+              <Typography.Text view="primary-small">0,95 ₽</Typography.Text>
             </Table.TCell>
           </Table.TRow>
         </Table.TBody>
@@ -445,7 +456,8 @@ export const MoreInfo = () => {
         </List.Item>
         <List.Item>
           <Typography.Text view="primary-medium">
-            За сделку покупки-продажи иностранной валюты взимается комиссия не менее ₽1 - ₽ЗОО/день за финансовый инструмент
+            За сделку покупки-продажи иностранной валюты взимается комиссия не менее 1 ₽ - ЗОО ₽/день за финансовый
+            инструмент
           </Typography.Text>
         </List.Item>
         <List.Item>
