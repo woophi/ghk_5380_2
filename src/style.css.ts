@@ -16,20 +16,26 @@ const container = style({
 });
 
 const boxGr = style({
-  padding: '1rem',
+  padding: '12px 1rem',
   borderRadius: '1rem',
   backgroundColor: '#F2F3F5',
 });
-const boxWhite = style({
-  padding: '1rem 1rem 20px',
-  borderRadius: '1rem',
-  backgroundColor: '#FFF',
+
+const img = style({ objectFit: 'cover' });
+export const btmContent = style({
+  padding: 0,
+});
+const rowBtn = style({
+  display: 'flex',
+  alignItems: 'center',
+  gap: '.5rem',
+  justifyContent: 'center',
 });
 
-const rows = style({
+const tags = style({
   display: 'flex',
-  flexDirection: 'column',
-  gap: '1.5rem',
+  flexWrap: 'wrap',
+  gap: '0.5rem',
 });
 
 const row = style({
@@ -37,18 +43,13 @@ const row = style({
   alignItems: 'center',
   justifyContent: 'space-between',
 });
-
-const img = style({ objectFit: 'cover' });
-export const btmContent = style({
-  padding: 0,
-});
 export const appSt = {
   bottomBtn,
   container,
   boxGr,
-  rows,
   img,
-  boxWhite,
-  row,
   btmContent,
+  rowBtn,
+  tags,
+  row,
 };
