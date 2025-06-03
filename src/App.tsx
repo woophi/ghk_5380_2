@@ -44,7 +44,6 @@ const TRADE_VOLUME_OPTIONS = [
 ];
 
 const FOND_TRADE_CONDITION_1 = 0.049;
-const FOND_TRADE_CONDITION_2 = 0.02;
 
 const SDUI_LINK =
   'alfabank://sdui_screen?screenName=InvestmentLongread&fromCurrent=true&endpoint=v1/invest-main-screen-view/investment-longread/55890%3flocation=AM%26campaignCode=gh5380_var2';
@@ -67,8 +66,7 @@ export const App = () => {
   const tradeActivityValue = TRADE_ACTIVITY_OPTIONS.find(option => option.key === tradeActivityOption)?.valueFM || 0;
   const tradeVolumeValue = TRADE_VOLUME_OPTIONS.find(option => option.key === tradeVolumeOption)?.valueSM || 0;
 
-  const TOTAL_FOND_TRADE =
-    FOND_TRADE_CONDITION_1 - aumValueFM - tradeDurationValueFM - tradeActivityValue + FOND_TRADE_CONDITION_2;
+  const TOTAL_FOND_TRADE = FOND_TRADE_CONDITION_1 - aumValueFM - tradeDurationValueFM - tradeActivityValue;
   const TOTAL_S_TRADE = 2 - (aumValueSM + tradeDurationValueSM + tradeVolumeValue);
 
   useEffect(() => {
