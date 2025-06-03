@@ -422,43 +422,49 @@ export const MoreInfo = () => {
       </Typography.TitleResponsive>
       <List tag="ul">
         <List.Item>
-          <Typography.Text view="primary-medium">Открытие брокерского счёта — бесплатно</Typography.Text>
-        </List.Item>
-        <List.Item>
-          <Typography.Text view="primary-medium">Обслуживание брокерского счёта — бесплатно</Typography.Text>
-        </List.Item>
-        <List.Item>
           <Typography.Text view="primary-medium">
-            Зачисление/вывод денежных средств на/с брокерского счёта — бесплатно
+            Открытие брокерского счёта — <b>бесплатно</b>
           </Typography.Text>
         </List.Item>
         <List.Item>
           <Typography.Text view="primary-medium">
-            Использование мобильного терминала «Альфа-Инвестиции» — бесплатно
+            Обслуживание брокерского счёта — <b>бесплатно</b>
           </Typography.Text>
         </List.Item>
         <List.Item>
           <Typography.Text view="primary-medium">
-            Использование торгового терминала «Альфа-Инвестиции» — бесплатно
-          </Typography.Text>
-        </List.Item>
-        <List.Item>
-          <Typography.Text view="primary-medium">Использование личного кабинета — бесплатно</Typography.Text>
-        </List.Item>
-        <List.Item>
-          <Typography.Text view="primary-medium">
-            За обработку поручения, направленного устно по телефону — бесплатно
+            Зачисление/вывод денежных средств на/с брокерского счёта — <b>бесплатно</b>
           </Typography.Text>
         </List.Item>
         <List.Item>
           <Typography.Text view="primary-medium">
-            За сделки принудительного сокращения обязательств (задолженности) — бесплатно
+            Использование мобильного терминала «Альфа-Инвестиции» — <b>бесплатно</b>
           </Typography.Text>
         </List.Item>
         <List.Item>
           <Typography.Text view="primary-medium">
-            За сделку покупки-продажи иностранной валюты взимается комиссия не менее 1 ₽ - ЗОО ₽/день за финансовый
-            инструмент
+            Использование торгового терминала «Альфа-Инвестиции» — <b>бесплатно</b>
+          </Typography.Text>
+        </List.Item>
+        <List.Item>
+          <Typography.Text view="primary-medium">
+            Использование личного кабинета — <b>бесплатно</b>
+          </Typography.Text>
+        </List.Item>
+        <List.Item>
+          <Typography.Text view="primary-medium">
+            За обработку поручения, направленного устно по телефону — <b>бесплатно</b>
+          </Typography.Text>
+        </List.Item>
+        <List.Item>
+          <Typography.Text view="primary-medium">
+            За сделки принудительного сокращения обязательств (задолженности) — <b>бесплатно</b>
+          </Typography.Text>
+        </List.Item>
+        <List.Item>
+          <Typography.Text view="primary-medium">
+            За сделку покупки-продажи иностранной валюты взимается комиссия не менее 1 ₽ -{' '}
+            <b>ЗОО ₽/день за финансовый инструмент</b>
           </Typography.Text>
         </List.Item>
         <List.Item>
@@ -475,6 +481,23 @@ export const MoreInfo = () => {
           </Typography.Text>
         </List.Item>
       </List>
+      <Typography.Text view="primary-small" color="secondary">
+        Полный перечень сопутствующих услуг и условий приведён в «Тарифах AO «АЛЬФА-БАНК» на брокерские услуги». НДС не
+        облагается.
+        <br />
+        <br />* Данное описание приведено исключительно для целей первичного ознакомления и не предназначено для полного
+        описания условий / тарифов на брокерские и депозитарные услуги. Для принятия решения о выборе того или иного
+        тарифного плана необходимо ознакомиться с полными условиями, доступными в «Тарифах AO «АЛЬФА-БАНК» на брокерские
+        услуги» и в «Тарифах AO «АЛЬФА-БАНК» на услуги депозитария», опубликованными в разделе «Документы»
+        <a href="https://aIfabank.ru/make-monev/investments/help/docs">
+          https://aIfabank.ru/make-monev/investments/help/docs
+        </a>
+        <br />
+        <br />
+        AO АЛЬФА-БАНК генеральная лицензия Банка России на осуществление банковских операций № 1326. Указанные условия
+        действительны на дату печати и не являются офертой или приглашением делать оферты. Более подробная информация — на
+        alfabank.ru или по телефону 8 495 755 58 58, 8 800 100 77 33.
+      </Typography.Text>
     </div>
   );
 };
