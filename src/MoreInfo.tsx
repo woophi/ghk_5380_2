@@ -288,17 +288,17 @@ export const MoreInfo = () => {
       <List tag="ul">
         <List.Item>
           <Typography.Text view="primary-medium">
-            сделки покупки облигаций при первичном размещении на биржевых рынках - <b>0,1%</b> от объема сделок
+            сделки покупки облигаций при первичном размещении на биржевых рынках - <b>0,1% от объема сделок</b>
           </Typography.Text>
         </List.Item>
         <List.Item>
           <Typography.Text view="primary-medium">
-            сделки покупки ЗПИФ при первичном размещении - <b>3%</b> от объема сделок
+            сделки покупки ЗПИФ при первичном размещении - <b>3% от объема сделок</b>
           </Typography.Text>
         </List.Item>
         <List.Item>
           <Typography.Text view="primary-medium">
-            сделки покупки акций при участии в pre-IPO - <b>5%</b> от объема сделок
+            сделки покупки акций при участии в pre-IPO - <b>5% от объема сделок</b>
           </Typography.Text>
         </List.Item>
       </List>
