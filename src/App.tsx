@@ -45,7 +45,7 @@ const TRADE_VOLUME_OPTIONS = [
 
 const FOND_TRADE_CONDITION_1 = 0.049;
 
-const SDUI_LINK = 'alfabank://redirect_to_ai?link=a-investments%3A%2F%2FCA%3Ftype%3Dlongread%26value%3D57251';
+const SDUI_LINK = 'a-investments://CA?type=longread&value=57251';
 
 if (LS.getItem(LSKeys.ShowThx, false)) {
   window.location.replace(SDUI_LINK);
